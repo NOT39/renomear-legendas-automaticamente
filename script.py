@@ -10,13 +10,13 @@ def renomear(path, output, name):
     '''
 
     #Faz uma lista com o nome de todos os arquivos no caminho de origem.
-    a = os.listdir(path)
+    lst = os.listdir(path)
 
     #Verifica se o arquivo possuí a extensão .srt e os renomeia.
-    for c in a:
-        if '.srt' in c:
-            n = c[:2]
-            os.rename(f'{path}/{c}',
+    for arq in lst:
+        if '.srt' in arq:
+            n = arq[:2]
+            os.rename(f'{path}/{arq}',
                     f'{output}/{name.replace("E00", f"E{n}")}.srt')
 
 
