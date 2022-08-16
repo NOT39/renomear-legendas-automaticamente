@@ -7,7 +7,6 @@ def renomear(path, output, name):
     :param path: Endereço da pasta com os arquivos .srt
     :param output: Endereço de saída dos arquivos
     :param name: Nome que os arquivos serão renomeados
-    :return: 
     '''
 
     #Faz uma lista com o nome de todos os arquivos no caminho de origem.
