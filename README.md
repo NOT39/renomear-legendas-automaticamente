@@ -1,4 +1,4 @@
-# renomear legendas automaticamente
+# Renomear legendas automaticamente
  Esse programa pega os arquivos .srt de uma pasta e os renomeia automaticamente.
 
  Para que o programa funcione corretamente os arquivos .srt precisam estar com o número do episódio nos dois primeiros caracteres. 
